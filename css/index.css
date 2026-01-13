@@ -1,0 +1,17 @@
+#iconImg{
+    width: 150px;
+    height:150px;
+    background-color: gray;
+}
+
+body{
+    padding: 40px;
+    margin:40px;
+}
+
+main{
+    background-color:yellow;
+    padding: 40px;
+    margin: 40px;
+    justify-content: center;
+}
