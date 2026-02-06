@@ -7,24 +7,43 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="description" content="ここに説明文を設定">
   <title>Home / おしため</title>
-
+  <!-- アイコン -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+<!-- CSS -->
+  <link rel="stylesheet" href="/css/sidebar.css">
   <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
-<div class="sidebar">
-  <p id="iconImg"><img src="/images/icon.svg" alt="おしためのアイコン"></p>
-  <button>検索</button>
-  <a href="/about.html">このサイトの使い方</a>
-  <a href="/profile.html">プロフィール</a>
-  <a href="/goal.html">目標確認</a>
-  <a href="/tag.html">タグ検索</a>
-  <a href="/contact_form.html">お問い合わせフォーム</a>
-</div>
-<main>
-  <p>公式のお知らせ</p>
-  <p>サーバーメンテナンスを行います</p>
-</main>
-<footer>copyright &COPY; 2026 oshitame</footer>
+  <div class="sidebar">
+    <a href="index.html"><img class="iconImg" src="/images/icon.svg" alt="財布の画像"></a>
+    <ul>
+      <li><a href="index.html">ホーム</a></li>
+      <li><a href="/profile.html">プロフィール</a></li>
+      <li><a href="/goal.html">目標確認</a></li>
+      <li><a href="/config.html">設定</a></li>
+      <div class="community-wrap">
+        <li><a href="/community.html">コミュニティ</a></li>
+        <li><a href="/tag.html">タグ検索</a></li>
+      </div>
+    </ul>
+    <p>copyright &COPY; 2026 oshitame</p>
+  </div>
+  
+  <main>
+    <div class="mainWrap">
+      <header>
+        <button>検索</button>
+      </header>
+      
+      <div class="content-wrapper">
+        <div class="content-box">お知らせ</div>
+        <div class="content-box">コミュニティの案内</div>
+        <div class="content-box">最近のつぶやき</div>
+      </div>
+    </div>
+  </main>
 
 </body>
 </html>
